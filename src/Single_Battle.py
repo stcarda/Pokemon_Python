@@ -1,4 +1,5 @@
 from Pokemon_Entity import Pokemon_Entity
+from Bulbasaur import Bulbasaur
 
 def createTeam():
     print("\n*** Welcome to Single Battles! ***")
@@ -7,11 +8,20 @@ def createTeam():
     team_size = input(": ")
     print("Would like like randomized Pokemon?")
     randomized = input(": ")
-    
+
 def choosePokemon():
     print("Temp")
 
 def showPokemonList():
     print("Temp")
 
-createTeam()
+def decideAction(target):
+    print("What should " + target.name +  " do?")
+    print("Attack\t Bag\n") 
+    print("Pokemon\t Run")
+    return input(": ")
+
+
+def showMoves(target):
+    for move in move_list:
+        print(move)
