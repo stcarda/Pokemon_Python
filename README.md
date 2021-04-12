@@ -1,15 +1,15 @@
 # Repository Info:
 #--------------------------------------------
-Author: Sean Carda
-Project: Pokemon_Python
-Created: 4/11/2021
+#Author: Sean Carda
+#Project: Pokemon_Python
+#Created: 4/11/2021
 #--------------------------------------------
 
 # Note:
 #-----------------!NOTE!---------------------
-All Pokemon proprty belongs to GameFreak.
-I do not own any license(s) to the 
-Pokemon name or content.
+#All Pokemon proprty belongs to GameFreak.
+#I do not own any license(s) to the 
+#Pokemon name or content.
 #--------------------------------------------
 
 # Description:
