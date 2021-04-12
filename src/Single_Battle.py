@@ -1,9 +1,13 @@
-def createTeam():
-    print("*** Welcome to Single Battles! ***")
-    print("----------------------------------")
-    pikachu = Pokemon_Entity()
-    print(pikachu.health)
+from Pokemon_Entity import Pokemon_Entity
 
+def createTeam():
+    print("\n*** Welcome to Single Battles! ***")
+    print("----------------------------------\n")
+    print("How many Pokemon would you like in your team?")
+    team_size = input(": ")
+    print("Would like like randomized Pokemon?")
+    randomized = input(": ")
+    
 def choosePokemon():
     print("Temp")
 
